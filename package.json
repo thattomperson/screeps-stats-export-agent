@@ -1,0 +1,40 @@
+{
+  "name": "screeps-statsd",
+  "description": "screeps stats in graphite :3",
+  "version": "0.9.13",
+  "homepage": "https://github.com/screepers/screeps-grafana",
+  "author": {
+    "name": "Bryan Conrad",
+    "email": "bkconrad@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/screepers/screeps-grafana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/screepers/screeps-grafana/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/screepers/screeps-grafana/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "node-statsd": "^0.1.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "node-statsd": "^0.1.1",
+    "screeps-api": "^1.16.0",
+    "winston": "^3.3.3",
+    "winston-loki": "^6.0.1"
+  }
+}
